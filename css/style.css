@@ -3,6 +3,21 @@ body {
     z-index: -5;
 }
 
+.jumbotronTransp {
+    padding: 10px;
+    background-color: #001f3f;
+    margin-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 2.1428571435;
+    color: white;
+ }
+
+#navy {
+    background-color: #001f3f;
+}
+
 .myrow {
     background-color: white;
     padding: 15px;
@@ -10,23 +25,47 @@ body {
 
 }
 
-.fullcontainer {
-    background-color: white;
-    z-index: -4;
+.jumbotronFooter {
+    padding-bottom: 10px;
+    padding-top: 15px;
+    color: white;
+    background-color: #001f3f;
+    margin: 15px 0px 15px 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+    line-height: 2.1428571435;
+    text-align: center;
+    display: block;
+    width: 100%;
+
+ }
+
+ #headBlue {
+    background-color: #001f3f;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    padding: 15px;
+    margin: 15px 0px 15px 0px
+}
+
+#navBar {
+   padding-top: 25px;
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
     color: white;
     z-index: -3;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
 }
 
-#headteal {
-    background-color: #4aaaa5;
-    color: white;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 15px;
-    margin: 15px 0px 15px 0px
-
+h2 {
+    font-family: 'Quicksand', sans-serif;
 }
 
 .maincontainer {
@@ -50,13 +89,13 @@ h1 {
     padding: 0 4px;
   }
   
-  /* Create two equal columns that sits next to each other */
-  .column {
+
+.column {
     flex: 50%;
     padding: 0 4px;
   }
   
-  .column img {
+.column img {
     margin-top: 8px;
     vertical-align: middle;
   }
