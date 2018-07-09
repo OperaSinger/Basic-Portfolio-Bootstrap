@@ -1,6 +1,5 @@
 body {
-    background: url('images/background.jpg');
-    z-index: -5;
+    
 }
 
 .jumbotronTransp {
@@ -12,7 +11,17 @@ body {
     font-weight: 200;
     line-height: 2.1428571435;
     color: white;
+    border: 1px solid black;
  }
+
+ #background {
+    background-image: url('../images/background01.jpg');
+    height: 100%; 
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 #navy {
     background-color: #001f3f;
@@ -37,6 +46,7 @@ body {
     text-align: center;
     display: block;
     width: 100%;
+    border: 1px solid black;
 
  }
 
@@ -68,6 +78,15 @@ h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
+h5 h6 {
+    color: white;
+    
+}
+
+a {
+    color: white;
+}
+
 .maincontainer {
     background-color: white; 
     padding: 25px; 
@@ -80,7 +99,7 @@ h2 {
     text-align: center;
     padding: 20px;
     margin: 15px;
-    border-top: 4px solid #4aaaa5;
+
 }
 
 .row {
@@ -89,6 +108,7 @@ h2 {
     padding: 0 4px;
   }
   
+
 
 .column {
     flex: 50%;
@@ -99,3 +119,90 @@ h2 {
     margin-top: 8px;
     vertical-align: middle;
   }
+
+  #portPhoto1 {
+      background-image: url(../images/AmericanGuideMap.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      align-content: center;
+      background-position-y: center;
+      width: 100%;
+      object-fit: contain;
+      padding: 100px 10px 100px 10px;
+      margin: 10px;
+      font-family: 'Quicksand', sans-serif;
+  }
+
+  #portPhoto2 {
+    background-image: url(../images/TrainSchedule.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    background-position-y: center;
+    width: 100%;
+    object-fit: contain;
+    padding: 100px 10px 100px 10px;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#portPhoto3 {
+    background-image: url(../images/Gif.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-content: center;
+    background-position-y: center;
+    width: 100%;
+    object-fit: contain;
+    padding: 100px 10px 100px 10px;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#portPhoto4 {
+    background-image: url(../images/SpinalTapTrivia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    align-content: center;
+    width: 100%;
+    object-fit: contain;
+    padding: 100px 10px 100px 10px;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+#portPhoto5 {
+    background-image: url(../images/Hangman.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    align-content: center;
+    width: 100%;
+    object-fit: contain;
+    padding: 100px 10px 100px 10px;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#portPhoto6 {
+    background-image: url(../images/Wireframe.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    align-content: center;
+    width: 100%;
+    object-fit: contain;
+    padding: 100px 10px 100px 10px;
+    margin: 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navy-background {
+    background-Color: #001f3f;
+}
+
+.white {
+    color: white;
+}
