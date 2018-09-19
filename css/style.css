@@ -4,7 +4,7 @@ body {
 .jumbotronTransp {
   padding: 10px;
   background-color: #001f3f;
-  margin-bottom: 10px;
+  margin: 20px 0px 10px 0px;
   font-family: "Quicksand", sans-serif;
   font-size: 25px;
   font-weight: 200;
@@ -14,11 +14,11 @@ body {
 }
 
 .maincontainer {
-  border: 2px solid #001f3f;
+  border: 3px solid #001f3f;
 }
 
 #background {
-  background-image: url("../images/background02.jpg");
+  background-image: url("../images/greystripes.png");
   height: 100%;
   width: 100%;
   background-position: center;
@@ -51,7 +51,7 @@ body {
   line-height: 2.1428571435;
   text-align: center;
   display: block;
-  width: 100%;
+  /* width: 100%; */
   border: 1px solid black;
 }
 
