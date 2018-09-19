@@ -112,93 +112,73 @@ a {
 }
 
 .column {
-  flex: 50%;
-  padding: 0 4px;
-}
-
-.column img {
+  /* flex: 50%; */
+  /* width: 10em; */
+  padding: 0px 4px 0px 4px;
   margin-top: 8px;
   vertical-align: middle;
 }
 
-#portPhoto1 {
-  background-image: url(../images/AmericanGuideMap.jpg);
+.card-body {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: white;
+  color: black;
+  opacity: 0.8;
+}
+
+.demoPhoto {
   background-repeat: no-repeat;
   background-size: cover;
   align-content: center;
   background-position-y: center;
-  width: 100%;
+  width: 95%;
+  height: 350px;
   object-fit: contain;
-  padding: 100px 10px 100px 10px;
-  margin: 10px;
+  padding: 120px 10px 0px 10px;
+  margin: 15px;
   font-family: "Quicksand", sans-serif;
+}
+
+#github {
+  background-image: url(../images/github-logo.png);
+}
+
+#portPhoto1 {
+  background-image: url(../images/AmericanGuideMap.jpg);
 }
 
 #portPhoto2 {
   background-image: url(../images/TrainSchedule.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-content: center;
-  background-position-y: center;
-  width: 100%;
-  object-fit: contain;
-  padding: 100px 10px 100px 10px;
-  margin: 10px;
-  font-family: "Quicksand", sans-serif;
 }
 
 #portPhoto3 {
   background-image: url(../images/Gif.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  align-content: center;
-  background-position-y: center;
-  width: 100%;
-  object-fit: contain;
-  padding: 100px 10px 100px 10px;
-  margin: 10px;
-  font-family: "Quicksand", sans-serif;
 }
 
 #portPhoto4 {
   background-image: url(../images/SpinalTapTrivia.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  align-content: center;
-  width: 100%;
-  object-fit: contain;
-  padding: 100px 10px 100px 10px;
-  margin: 10px;
-  font-family: "Quicksand", sans-serif;
 }
 
 #portPhoto5 {
   background-image: url(../images/Hangman.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  align-content: center;
-  width: 100%;
-  object-fit: contain;
-  padding: 100px 10px 100px 10px;
-  margin: 10px;
-  font-family: "Quicksand", sans-serif;
 }
 
 #portPhoto6 {
   background-image: url(../images/Wireframe.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: center;
-  align-content: center;
-  width: 100%;
-  object-fit: contain;
-  padding: 100px 10px 100px 10px;
-  margin: 10px;
-  font-family: "Quicksand", sans-serif;
 }
 
+#portPhoto8 {
+  background-image: url(../images/scraper.png);
+}
+
+#portPhoto9 {
+  background-image: url(../images/NFLevate.png);
+}
+
+#portPhoto10 {
+  background-image: url(../images/bikerBar.png);
+}
 .navy-background {
   background-color: #001f3f;
 }
